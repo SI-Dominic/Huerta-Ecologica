@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="HuertaEcologica-SIDominic.exe" version="1.0.0.0" publicKeyToken="b340f653f3dfbf13" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HuertaEcologica-SIDominic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="HuertaEcologica-SIDominic.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClasesDeLaHuerta.dll" size="11776">
+      <assemblyIdentity name="ClasesDeLaHuerta" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Zqn0saRcMrJNhS88/R11MnDeHb+rXfp9HIxhPX0buG4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HuertaEcologica-SIDominic.exe" size="1605624">
+      <assemblyIdentity name="HuertaEcologica-SIDominic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qmzWZX6gio3d4NuTmA8J3IYLBylYOM85mdWuNWj7hKk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="HuertaEcologica-SIDominic.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-I98R8VV\TataOtaku" issuerKeyHash="82ec1a1c8ae933d26601e3e5d0b4212fec170cc8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>IhSyBnZYsH8qYz6Px9fMQSDW/OuDFBgv9gYsAjs+fPo=</DigestValue></Reference></SignedInfo><SignatureValue>B/CK9fBW3Hu8v9FdlPDyZJbOCN2EeHgcqkEIvEnUdvD6n4CqtD4tT+kTKjD0gpm2CUmyX03isEKqlpRpTYPmlqYMukYlrVQcEKsTZ7Wm1zWGfqL7WIh1dhoZ2Xs5r1UjxKOTfrOEPfNLoax5/As0AwhY3oSaRZTmmhER/PUq66Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xZ/eVR2nHTleTspPRqmwfzc/1GPCu2MhKJK9BiBsgSo+nh2FARyicdvzLdfCEn6RXHlYGvBn7kbDAQpYHZZHcbdlhddsfl7yldCvEoaoGkSOAgMr403dW0DQwpRw9epDfp9EZy7idApLOhcgT4RSSU6Djbee/hRSlg1nI9DyR7k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fa7c3e3b022c06f62f181483ebfcd62041ccd7c78f3e632a7fb0587606b21422" Description="" Url=""><as:assemblyIdentity name="HuertaEcologica-SIDominic.exe" version="1.0.0.0" publicKeyToken="b340f653f3dfbf13" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-I98R8VV\TataOtaku</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FJSvu2gREGsYb7A+FwyCI6rbKo0pBgoU0rqmwsAdREM=</DigestValue></Reference></SignedInfo><SignatureValue>pJKZfmTSCmLtLCD1WmDFUai0owelUDwe710JpCo0h8Ag+OxbcL/C4OTWmt7csnbMg7uVvdhcv2ttMot9zIC2XxAXydD8KMxPm9pC64D0+1rf0b3IsWSbEXPtYCxO+YtDh9vidZ+1bXrmbZ3EqvV+YzIqVjtm/DeZ7h9VLBx85pw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xZ/eVR2nHTleTspPRqmwfzc/1GPCu2MhKJK9BiBsgSo+nh2FARyicdvzLdfCEn6RXHlYGvBn7kbDAQpYHZZHcbdlhddsfl7yldCvEoaoGkSOAgMr403dW0DQwpRw9epDfp9EZy7idApLOhcgT4RSSU6Djbee/hRSlg1nI9DyR7k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQKtB0+xbj1rNK7i7J3JaiZzANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIARABFAFMASwBUAE8AUAAtAEkAOQA4AFIAOABWAFYAXABUAGEAdABhAE8AdABhAGsAdTAeFw0yMjA3MTgyMjAyMTNaFw0yMzA3MTkwNDAyMTNaMD0xOzA5BgNVBAMeMgBEAEUAUwBLAFQATwBQAC0ASQA5ADgAUgA4AFYAVgBcAFQAYQB0AGEATwB0AGEAawB1MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFn95VHacdOV5Oyk9GqbB/Nz/UY8K7YyEokr0GIGyBKj6eHYUBHKJx2/Mt18ISfpFceVga8GfuRsMBClgdlkdxt2WF12x+XvKV0K8ShqgaRI4CAyvjTd1bQNDClHD16kN+n0RnLuJ0Cks6FyBPhFJJToONt57+FFKWDWcj0PJHuQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAG3ZJNUxn0Embcw7VfWPalVbuV1V0SUSvWICaSK787MmcFjbPAJmokfhhbrBKwtvHvZPb7ph7fMkK48kuLhOVuWvrdyk5d8aTJKZwBZ26SXe+MfZ/LPPwsRdeW2WLIq5YQy4heQCx1PQCt0aeJxRPDwsa/ncDLPPKWd+jhXG0qP7</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
