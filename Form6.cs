@@ -39,5 +39,10 @@ namespace HuertaEcologica_SIDominic
         {
 
         }
+
+        private void btnrealizarpedido_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

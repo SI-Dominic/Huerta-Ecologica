@@ -70,7 +70,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe Script", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(611, 64);
+            this.label2.Location = new System.Drawing.Point(579, 48);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(572, 67);
             this.label2.TabIndex = 4;
@@ -81,7 +81,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1093, 628);
+            this.ClientSize = new System.Drawing.Size(1242, 690);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnvolver0);
             this.Controls.Add(this.btnclienteempresa);

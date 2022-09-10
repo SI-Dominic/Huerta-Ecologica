@@ -24,5 +24,40 @@ namespace HuertaEcologica_SIDominic
             form1.ShowDialog();
             this.Close();
         }
+
+        private void btnaceptar_Click(object sender, EventArgs e)
+        {   
+                
+        }
+
+        private void btnregistrar_Click(object sender, EventArgs e)
+        {
+            Usuario usuario = new Usuario();
+            usuario.Usuario = txtUsuario.Txt;
+            usuario.Usuario = txtContraseña.Txt;
+            usuario.Usuario = txtconContraseña.Txt;
+            usuario.Usuario = txtId.Txt;
+
+            try
+            {
+
+                Control control = new Control();
+                string respuesta = control.ctrlRegistro(usuario);
+
+                if (respuesta.Length > 0)
+                {
+                    MessageBox.Show(respuesta, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Usuario registrado", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+            }
+            catch (Exception ex) 
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

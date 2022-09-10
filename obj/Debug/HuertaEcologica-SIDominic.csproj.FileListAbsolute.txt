@@ -21,3 +21,7 @@ W:\Library\Visual\HuertaEcologica-SIDominic\bin\Debug\HuertaEcologica-SIDominic.
 W:\Library\Visual\HuertaEcologica-SIDominic\bin\Debug\HuertaEcologica-SIDominic.application
 W:\Library\Visual\HuertaEcologica-SIDominic\obj\Debug\HuertaEcologica-SIDominic.exe.manifest
 W:\Library\Visual\HuertaEcologica-SIDominic\obj\Debug\HuertaEcologica-SIDominic.application
+W:\Library\Visual\HuertaEcologica-SIDominic\obj\Debug\HuertaEcologica_SIDominic.Form7.resources
+W:\Library\Visual\HuertaEcologica-SIDominic\obj\Debug\HuertaEcologica_SIDominic.Form10.resources
+W:\Library\Visual\HuertaEcologica-SIDominic\obj\Debug\HuertaEcologica_SIDominic.Form8.resources
+W:\Library\Visual\HuertaEcologica-SIDominic\obj\Debug\HuertaEcologica_SIDominic.Form9.resources

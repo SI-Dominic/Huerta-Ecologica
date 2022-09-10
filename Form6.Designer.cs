@@ -56,6 +56,7 @@
             this.btnrealizarpedido.TabIndex = 5;
             this.btnrealizarpedido.Text = "Realizar pedido";
             this.btnrealizarpedido.UseVisualStyleBackColor = true;
+            this.btnrealizarpedido.Click += new System.EventHandler(this.btnrealizarpedido_Click);
             // 
             // label2
             // 
@@ -81,10 +82,10 @@
             // 
             // txtnombreProducto
             // 
-            this.txtnombreProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnombreProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnombreProducto.Location = new System.Drawing.Point(417, 118);
             this.txtnombreProducto.Name = "txtnombreProducto";
-            this.txtnombreProducto.Size = new System.Drawing.Size(363, 121);
+            this.txtnombreProducto.Size = new System.Drawing.Size(363, 28);
             this.txtnombreProducto.TabIndex = 9;
             // 
             // label3
@@ -92,7 +93,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe Print", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(409, 242);
+            this.label3.Location = new System.Drawing.Point(409, 199);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(287, 43);
             this.label3.TabIndex = 10;
@@ -101,10 +102,10 @@
             // 
             // txtcantidadProducto
             // 
-            this.txtcantidadProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcantidadProducto.Location = new System.Drawing.Point(417, 288);
+            this.txtcantidadProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcantidadProducto.Location = new System.Drawing.Point(417, 272);
             this.txtcantidadProducto.Name = "txtcantidadProducto";
-            this.txtcantidadProducto.Size = new System.Drawing.Size(363, 75);
+            this.txtcantidadProducto.Size = new System.Drawing.Size(363, 28);
             this.txtcantidadProducto.TabIndex = 11;
             // 
             // Form6
